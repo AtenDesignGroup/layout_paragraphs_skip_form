@@ -1,0 +1,10 @@
+layout_paragraphs_skip_form.settings:
+  type: config_object
+  label: 'Layout Paragraphs Skip Form general settings'
+  mapping:
+    skip_create_form:
+      type: sequence
+      label: 'Skip create form for these paragraph types'
+      sequence:
+        type: string
+        label: 'Paragraph type'

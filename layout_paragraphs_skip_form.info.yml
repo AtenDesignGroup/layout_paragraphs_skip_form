@@ -1,0 +1,7 @@
+name: Layout Paragraphs Skip Form
+description: Allows skipping the "add paragraph" form for select paragraph types
+type: module
+core_version_requirement: ^8 || ^9
+package: Layout Paragraphs
+dependencies:
+  - layout_paragraphs:layout_paragraphs

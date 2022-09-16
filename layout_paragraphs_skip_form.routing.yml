@@ -1,0 +1,7 @@
+layout_paragraphs_skip_form.settings:
+  path: '/admin/config/layout_paragraphs_skip_form/settings'
+  defaults:
+    _form: '\Drupal\layout_paragraphs_skip_form\Form\SettingsForm'
+    _title: 'Layout Paragraphs Skip Form Settings'
+  requirements:
+    _permission: 'administer site configuration'
